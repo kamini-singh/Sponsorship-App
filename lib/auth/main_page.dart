@@ -18,11 +18,15 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   @override
-  // String userType = '';
-  // Future<dynamic> getDetails() async {
-  //   await FirebaseServices.getSelfInfo();
-  //   userType = FirebaseServices.currentUser.userType;
-  // }
+  void initState(){
+  super.initState();
+  getDetails();
+  }
+  String userType = '';
+  Future<dynamic> getDetails() async {
+    await FirebaseServices.getSelfInfo();
+    userType = FirebaseServices.currentUser.userType;
+  }
 
   Widget build(BuildContext context) {
     SizeConfig().init(context);
@@ -31,17 +35,16 @@ class _MainPageState extends State<MainPage> {
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            //   getDetails();
-            // if (userType == 'speakerOrg') {
-            //   return const TabsScreenFind();
-            // } else if (userType == 'speaker') {
-            //   return const TabsScreenBecome();
-            // } else if (userType == 'sponsor') {
-            //   return const TabsScreenSponsorFind();
-            // }
-            // else if (userType == 'sponsorOrg') {
-            //   return const TabsScreenSponsorOrg();
-            // }
+            if (userType == 'speakerOrg') {
+              return const TabsScreenFind();
+            } else if (userType == 'speaker') {
+              return const TabsScreenBecome();
+            } else if (userType == 'sponsor') {
+              return const TabsScreenSponsorFind();
+            }
+            else if (userType == 'sponsorOrg') {
+              return const TabsScreenSponsorOrg();
+            }
           }
           return const AuthPage();
         },

@@ -74,7 +74,7 @@ late ChatUser user;
                             user: user,
                           ),
                         ),
-                      );;
+                      );
                   },
                   icon: const Icon(
                     Icons.chat,

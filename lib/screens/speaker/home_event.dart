@@ -26,7 +26,7 @@ class _HomeEventState extends State<HomeEvent> {
         title: Align(
           alignment: Alignment.centerLeft,
           child: Text(
-            'Welcome GDSC-IGDTUW', // ${FirebaseServices.currentUser.fname}',
+            'Welcome ${FirebaseServices.currentUser.fname}',
             style: const TextStyle(
               color: PUColors.textColor,
               fontSize: 30,

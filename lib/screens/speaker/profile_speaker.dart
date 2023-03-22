@@ -265,96 +265,96 @@ class _ProfileScreenSpeakerState extends State<ProfileScreenSpeaker> {
                         SizedBox(
                           height: getProportionateScreenHeight(10),
                         ),
-                        // Row(
-                        //   children: [
-                        //     Container(
-                        //       height: getProportionateScreenHeight(30),
-                        //       width: getProportionateScreenWidth(30),
-                        //       decoration: BoxDecoration(
-                        //         borderRadius: BorderRadius.circular(5),
-                        //         image: const DecorationImage(
-                        //           image: AssetImage(
-                        //             'assets/images/linkedin.png',
-                        //           ),
-                        //         ),
-                        //       ),
-                        //     ),
-                        //     SizedBox(
-                        //       width: getProportionateScreenWidth(15),
-                        //     ),
-                        //     GestureDetector(
-                        //       child: const Text(
-                        //         'Add',
-                        //         style: TextStyle(
-                        //           color: PUColors.primaryColor,
-                        //         ),
-                        //       ),
-                        //     )
-                        //   ],
-                        // ),
-                        // SizedBox(
-                        //   height: getProportionateScreenHeight(10),
-                        // ),
-                        // Row(
-                        //   children: [
-                        //     Container(
-                        //       height: getProportionateScreenHeight(30),
-                        //       width: getProportionateScreenWidth(30),
-                        //       decoration: BoxDecoration(
-                        //         borderRadius: BorderRadius.circular(5),
-                        //         image: const DecorationImage(
-                        //           image: AssetImage(
-                        //             'assets/images/twitter.png',
-                        //           ),
-                        //         ),
-                        //       ),
-                        //     ),
-                        //     SizedBox(
-                        //       width: getProportionateScreenWidth(15),
-                        //     ),
-                        //     GestureDetector(
-                        //       child: const Text(
-                        //         'Add',
-                        //         style: TextStyle(
-                        //           color: PUColors.primaryColor,
-                        //         ),
-                        //       ),
-                        //     )
-                        //   ],
-                        // ),
-                        // SizedBox(
-                        //   height: getProportionateScreenHeight(10),
-                        // ),
-                        // Row(
-                        //   children: [
-                        //     Container(
-                        //       height: getProportionateScreenHeight(30),
-                        //       width: getProportionateScreenWidth(30),
-                        //       decoration: BoxDecoration(
-                        //         borderRadius: BorderRadius.circular(5),
-                        //         image: const DecorationImage(
-                        //           image: AssetImage(
-                        //             'assets/images/github.png',
-                        //           ),
-                        //         ),
-                        //       ),
-                        //     ),
-                        //     SizedBox(
-                        //       width: getProportionateScreenWidth(15),
-                        //     ),
-                        //     GestureDetector(
-                        //       child: const Text(
-                        //         'Add',
-                        //         style: TextStyle(
-                        //           color: PUColors.primaryColor,
-                        //         ),
-                        //       ),
-                        //     )
-                        //   ],
-                        // ),
-                        // SizedBox(
-                        //   height: getProportionateScreenHeight(10),
-                        // ),
+                        Row(
+                          children: [
+                            Container(
+                              height: getProportionateScreenHeight(30),
+                              width: getProportionateScreenWidth(30),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                image: const DecorationImage(
+                                  image: AssetImage(
+                                    'assets/images/linkedin.png',
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: getProportionateScreenWidth(15),
+                            ),
+                            GestureDetector(
+                              child: const Text(
+                                'Add',
+                                style: TextStyle(
+                                  color: PUColors.primaryColor,
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(
+                          height: getProportionateScreenHeight(10),
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              height: getProportionateScreenHeight(30),
+                              width: getProportionateScreenWidth(30),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                image: const DecorationImage(
+                                  image: AssetImage(
+                                    'assets/images/twitter.png',
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: getProportionateScreenWidth(15),
+                            ),
+                            GestureDetector(
+                              child: const Text(
+                                'Add',
+                                style: TextStyle(
+                                  color: PUColors.primaryColor,
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(
+                          height: getProportionateScreenHeight(10),
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              height: getProportionateScreenHeight(30),
+                              width: getProportionateScreenWidth(30),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5),
+                                image: const DecorationImage(
+                                  image: AssetImage(
+                                    'assets/images/github.png',
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: getProportionateScreenWidth(15),
+                            ),
+                            GestureDetector(
+                              child: const Text(
+                                'Add',
+                                style: TextStyle(
+                                  color: PUColors.primaryColor,
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(
+                          height: getProportionateScreenHeight(10),
+                        ),
                         Row(
                           children: [
                             Container(
