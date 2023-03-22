@@ -225,7 +225,7 @@ class _ProfileScreenSponsorOrgState extends State<ProfileScreenSponsorOrg> {
 
                         const Text(
                           //'Years of Experience',
-                          'range of Sponsorship',
+                          'Range of Sponsorship',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 22,

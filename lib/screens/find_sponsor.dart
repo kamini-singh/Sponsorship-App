@@ -268,7 +268,7 @@ class _FindSponsorState extends State<FindSponsor> {
                           await FirebaseServices().createSponsor(
                             fnameController.text.toString(),
                             lnameController.text.toString(),
-                            amtController.text.toString(),
+                            selectedVal.toString(),
                             reasonController.text.toString(),
                             context,
                           );
