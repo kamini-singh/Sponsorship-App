@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "115987009104",
+    "project_id": "partner-up-app",
+    "storage_bucket": "partner-up-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115987009104:android:a3eea320bffaea4050cb55",
+        "android_client_info": {
+          "package_name": "com.example.partner_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115987009104-6idmqu0qeqfv8andtqoos3gcehipc2u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCafq0do-OcTZ9mXVp1fwmtoWRvVpQfcYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115987009104-6idmqu0qeqfv8andtqoos3gcehipc2u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
